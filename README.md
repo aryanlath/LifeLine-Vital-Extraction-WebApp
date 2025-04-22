@@ -3,7 +3,7 @@
 ## **Problem Statement:**
 Patient monitoring is crucial in healthcare, as it allows healthcare professionals to closely track a patient's vital signs and detect any potential issues before they become serious. In particular, monitoring a patient's vitals, such as heart rate, blood pressure, and oxygen levels, can provide valuable information about a patient's overall health and well-being. The core problem statement is to extract *Heart Rate, SpO2, RR, Systolic Blood Pressure, Diabolic Blood Pressure, and MAP* from images of ECG Machines.
 
-The weights for the models can be found [here](https://drive.google.com/drive/folders/1xM-a8E9qP4i2rqY4D3MHCT-pLxd9WlPH?usp=sharing).
+The weights for the models can be found [here]([https://drive.google.com/drive/folders/1xM-a8E9qP4i2rqY4D3MHCT-pLxd9WlPH?usp=sharing](https://drive.google.com/drive/folders/1F_vzklVg52vqhPQo1HcDhtWft6xt3_xl?usp=sharing)).
 
 ## **Proposed Pipeline:**
 The proposed pipeline consists of a total of four stages. The whole pipeline is made such that it can work in two modes: **'Fast'** and **'Accurate**'. 
