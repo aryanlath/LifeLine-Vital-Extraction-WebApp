@@ -14,7 +14,7 @@ The 'Fast' mode ensures that the whole pipeline runs under 2 seconds on CPU, whi
 
  The four stages of the pipeline are as follows:
 
-![Pipeline](https://github.com/Umang1815/CloudPhysician-s-Vital-Extraction-Challenge/blob/main/pipeline.PNG)
+![Pipeline](https://github.com/aryanlath/LifeLine-Vital-Extraction-WebApp/blob/main/pipeline.PNG)
 
 
 
@@ -121,7 +121,7 @@ After extracting the screens, our next stage in the pipeline is to find all the 
 
 
 
-![WBF](https://github.com/Umang1815/CloudPhysician-s-Vital-Extraction-Challenge/blob/main/download.png)
+![WBF](https://github.com/aryanlath/LifeLine-Vital-Extraction-WebApp/blob/main/download.png)
 
 After getting all the bounding boxes around the numbers in the image, we use Optical Character Recognition to get the numbers written in the images. We implement this task using the ParSeq (Permuted AutoRegressive SEQuence) model. We are using the pre-trained model of ParSeq, and the details are as follows:
 
@@ -133,7 +133,7 @@ After getting all the bounding boxes around the numbers in the image, we use Opt
 
 This task consists of classifying all the numbers detected by OCR into their respective classes. To implement this task, we have made **CRABBNet (Custom Recognition Assisted Bounding Box classification Network)**.  
 
-![CRABBNET Architecture](https://github.com/Umang1815/CloudPhysician-s-Vital-Extraction-Challenge/blob/main/crabbnet.PNG)
+![CRABBNET Architecture](https://github.com/aryanlath/LifeLine-Vital-Extraction-WebApp/blob/main/crabbnet.PNG)
 
   CRABBNet takes 3 inputs, a 4-channel Image, all numbers on the screen, and the target number which needs to be classified. 
 
